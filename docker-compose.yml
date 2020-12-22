@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+    user-management-db:
+      image: mb-infra/mysql
+    acronym-db:
+      image: mb-infra/mongodb
